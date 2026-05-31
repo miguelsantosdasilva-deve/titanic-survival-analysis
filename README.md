@@ -37,18 +37,18 @@ The analysis delivers 5 data-driven insights with visualizations and clear inter
 
 ```bash
 # Clone the repository
-git clone https://github.com/miguelsantossilva11/titanic-survival-analysis
+git clone https://github.com/miguelsantos-dv/titanic-survival-analysis
 
 # Install dependencies
 pip install pandas matplotlib seaborn
 
 # Run the notebook
-jupyter notebook trabalho_t1.ipynb
+jupyter notebook titanic_survival_analysis.ipynb
 ```
 
 ## Dataset
 
-Classic Titanic dataset (`titanic.csv`) with passenger records including survival status, class, gender, age, fare, embarkation port, and family composition.
+Classic Titanic dataset loaded directly from Seaborn (`sns.load_dataset("titanic")`) — no external download required. Each record includes survival status, class, gender, age, fare, embarkation port, and family composition.
 
 ## Conclusion
 
