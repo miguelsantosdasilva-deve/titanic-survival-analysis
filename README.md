@@ -40,7 +40,7 @@ The analysis delivers 5 data-driven insights with visualizations and clear inter
 git clone https://github.com/miguelsantos-dv/titanic-survival-analysis
 
 # Install dependencies
-pip install pandas matplotlib seaborn
+pip install -r requirements.txt
 
 # Run the notebook
 jupyter notebook titanic_survival_analysis.ipynb
@@ -57,3 +57,7 @@ Survival on the Titanic was not random. Gender and social class created a clear 
 ---
 
 *Academic project — Statistics and Inferences · PUC-Campinas · 2026*
+
+## License
+
+This project is released under the MIT License — see the [LICENSE](LICENSE) file for details.
